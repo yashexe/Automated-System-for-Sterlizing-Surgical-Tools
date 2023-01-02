@@ -1,7 +1,3 @@
-## ----------------------------------------------------------------------------------------------------------
-## TEMPLATE
-## Please DO NOT change the naming convention within this template. Some changes may
-## lead to your program not functioning as intended.
 import random
 import sys
 sys.path.append('../')
@@ -20,11 +16,6 @@ def update_sim ():
 arm = qarm()
 
 update_thread = repeating_timer(2, update_sim)
-
-
-## STUDENT CODE BEGINS
-## ----------------------------------------------------------------------------------------------------------
-## Example to rotate the base: arm.rotateBase(90)
 
 #Locations of each bin slot
 Large_Red = [-0.4083,0.1718,0.20]
